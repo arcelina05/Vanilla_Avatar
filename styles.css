@@ -1,17 +1,17 @@
 .Avatar{
-  width: 120px;
-  height: 120px;
-  border-radius:50%;
+  width: 130px;
+  height: 130px;
+  border-radius:60%;
   object-fit: cover;
 }
 .Avatar-container{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 .card {
     max-width: 400px ;
     margin: 40px auto;
-    background-color: lightskyblue;
+    background-color: #EE82EE;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
@@ -38,7 +38,7 @@
     display: inline-block;
     margin: 15px;
     padding: 10px 20px;
-    background: lightgray;
+    background: white;
     border-radius: 8px;
     text-decoration: none;
 }
