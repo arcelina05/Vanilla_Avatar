@@ -1,10 +1,10 @@
-.Avatar{
+.avatar{
   width: 130px;
   height: 130px;
   border-radius:60%;
   object-fit: cover;
 }
-.Avatar-container{
+.avatar-container{
     margin-bottom: 30px;
 
 }
