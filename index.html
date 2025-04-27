@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Mi CV - Lina Arce</title>
+  <!-- Incluir jsPDF y html2canvas por separado -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- Incluir nuestro script separado -->
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <section class="card">
     <div id="cv-content">
-
       <div class="avatar-container">
-        <img src="img.jpg" alt="Avatar" id="Avatarpreview" class="avatar crossorigin="anonymous" />
+        <!-- Usamos una imagen placeholder que funciona sin problemas CORS -->
+        <img src="https://via.placeholder.com/150" alt="Avatar" id="Avatarpreview" class="avatar" />
+        <!-- Para usar tu imagen local, reemplaza el src de arriba por "img.jpg" cuando el problema esté resuelto -->
       </div>
-
+      
       <div class="description">
         <h2>¡Hola! Soy Lina Arce</h2>
         <p>Apasionada por la tecnología, la danza y el aprendizaje continuo 🚀</p>
       </div>
-
+      
       <div class="contact">
         <p>📞 311 2586515</p>
       </div>
-
+      
       <div class="links">
         <a href="education.html" class="link-card">Educación</a>
         <a href="experience.html" class="link-card">Experiencia</a>
       </div>
-
     </div> <!-- fin de cv-content -->
-
+    
     <button id="downloadBtn" class="link-card" style="font-weight: bold;">Descargar CV</button>
   </section>
-
-  <!-- Librería para generar el PDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
-  <script src="script.js" defer></script>
 </body>
-
 </html>
