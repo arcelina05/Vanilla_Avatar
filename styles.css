@@ -1,0 +1,49 @@
+.Avatar{
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+  object-fit: cover;
+}
+.Avatar-container{
+    margin-bottom: 20px;
+
+}
+.card {
+    max-width: 400px ;
+    margin: 40px auto;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(red, green, blue);
+}
+
+.description {
+    margin-bottom:15px;
+}
+
+.contact {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.link-card{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background: lightgray;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.card ul {
+    text-align: left;
+    margin-bottom: 10px;
+}
