@@ -1,5 +1,6 @@
 .avatar{
-  width: 130px;
+  width: 100%; /* que la imagen nunca sea más ancha que su contenedor */
+  max-width: 130px;
   height: 130px;
   border-radius:60%;
   object-fit: cover;
@@ -8,6 +9,17 @@
     margin-bottom: 30px;
 
 }
+
+.card {
+    max-width: 400px ;
+    margin: 40px auto;
+    background-color: #EE82EE;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
 .description {
     margin-bottom:15px;
 }
